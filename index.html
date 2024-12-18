@@ -10,7 +10,23 @@
 <html>
 <body>
     <div class="bg" id="home"></div>
-    <?php include "static/header.php" ?>
+    <section class="navigation">
+        <div class="nav-container">
+            <nav>
+                <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+                <ul class="nav-list">
+                    <li><a href="index.html" class="active">home</a></li>
+                    <li><a href="travel">travel</a></li>
+                    <li><a href="#">itinerary</a>
+                        <ul class="nav-dropdown">
+                            <li><a href="overview.html">overview</a></li>
+                            <li><a href="detailed.html">detailed</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
     <div class="title">
         <p class="gs">you're invited</p>
         <p id="gl">TO</p>
@@ -21,7 +37,9 @@
         <BR><BR><BR>
         <p class="myth" id="date">12.28.2024 - 1.2.2025</p>
     </div>
-    <?php include "static/footer.php" ?>
+    <footer class="default">
+        <h6>copyright &copy; 2023 christinaathecoder</h6>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="index.js"></script>
 </body>

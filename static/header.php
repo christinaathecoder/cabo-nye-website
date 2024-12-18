@@ -7,8 +7,8 @@
                 <li><a href="travel">travel</a></li>
                 <li><a href="#">itinerary</a>
                     <ul class="nav-dropdown">
-                        <li><a href="overview.php">overview</a></li>
-                        <li><a href="detailed.php">detailed</a></li>
+                        <li><a href="overview.html">overview</a></li>
+                        <li><a href="detailed.html">detailed</a></li>
                     </ul>
                 </li>
             </ul>
