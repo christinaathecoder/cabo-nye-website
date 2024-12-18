@@ -74,7 +74,7 @@ nav ul li a, nav ul li a:visited {
     text-transform: uppercase;
 }
 nav ul li a:hover, nav ul li a:visited:hover {
-    font-style: italic;
+        text-decoration: none;
 }
 nav ul li a:not(:only-child):after, nav ul li a:visited:not(:only-child):after {
     padding-left: 4px;
@@ -153,6 +153,7 @@ h1 {
     font: 10em 'tan';
     letter-spacing: -.1em;
     text-align: center;
+    line-height: 1em;
 }
 h2 {
     font: 4em 'myth';
@@ -171,14 +172,14 @@ h3 {
     text-align: center;
 }
 h4 {
-    font: 700 2em 'Roboto';
+    font: 700 1.5em 'Roboto';
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 h5 {
-    font: 1em 'glitten';
+    font: 4em 'glitten';
     letter-spacing: normal;
-    margin: 5 5;
+    display: inline;
 }
 h6 {
     font: 100 1em 'Roboto';
@@ -203,8 +204,8 @@ h6 {
 .bg#overview{
     background-image: url('../images/palm-tree-3.png');
 }
-.bg#cost {
-    background-image: url('../images/cost.png');
+.bg#flights {
+    background-image: url('../images/palm-tree-4.png');
 }
 .bg#construction {
     background-image: url('../images/construction.png');
@@ -308,21 +309,23 @@ a {
 }
 
 .floating-nav a {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
-    font: 1.5em 'tan';
-    padding: 10px 20px;
+    font: 1.25em 'myth';
+    text-transform: lowercase;
+    padding: 10px 10px;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .floating-nav a:hover, .floating-nav a.active {
     color: #ffc4d6;
     font-style:italic;
+    text-decoration: none;
     border-radius: 5px;
 }
 a:hover {
     font-weight: 700;
-    text-decoration: none;
+    text-decoration: underline;
     color:#FE2C6C;
     font-style:italic;
 }
@@ -342,6 +345,7 @@ img#icons {
     filter: none;
     width: 50px;
     height: 50px;
+    padding: 0 0 0 0;
 }
 figure {
     display:inline-block;
@@ -439,6 +443,9 @@ a#dc:hover {
         margin: 5px;
         padding: 5px 10px;
     } */
+    h1 {
+        font-size: 80px;
+    }
     h2 {
         font-size: 40px;
     }
@@ -447,10 +454,10 @@ a#dc:hover {
         letter-spacing: -5px;
     }
     h4 {
-        font-size: 20px;
+        font-size: 18px;
     }
     h5 {
-        font-size: 25px;
+        font-size: 35px;
     }
     h6 {
         font-size: 12px;
