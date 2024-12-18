@@ -153,6 +153,7 @@ h1 {
     font: 10em 'tan';
     letter-spacing: -.1em;
     text-align: center;
+    line-height: 1em;
 }
 h2 {
     font: 4em 'myth';
@@ -171,14 +172,14 @@ h3 {
     text-align: center;
 }
 h4 {
-    font: 700 2em 'Roboto';
+    font: 700 1.5em 'Roboto';
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 h5 {
-    font: 1em 'glitten';
+    font: 4em 'glitten';
     letter-spacing: normal;
-    margin: 5 5;
+    display: inline;
 }
 h6 {
     font: 100 1em 'Roboto';
@@ -203,8 +204,8 @@ h6 {
 .bg#overview{
     background-image: url('../images/palm-tree-3.png');
 }
-.bg#cost {
-    background-image: url('../images/cost.png');
+.bg#flights {
+    background-image: url('../images/palm-tree-4.png');
 }
 .bg#construction {
     background-image: url('../images/construction.png');
@@ -322,7 +323,7 @@ a {
 }
 a:hover {
     font-weight: 700;
-    text-decoration: none;
+    text-decoration: underline;
     color:#FE2C6C;
     font-style:italic;
 }
@@ -342,6 +343,7 @@ img#icons {
     filter: none;
     width: 50px;
     height: 50px;
+    padding: 0 0 0 0;
 }
 figure {
     display:inline-block;
@@ -439,6 +441,9 @@ a#dc:hover {
         margin: 5px;
         padding: 5px 10px;
     } */
+    h1 {
+        font-size: 80px;
+    }
     h2 {
         font-size: 40px;
     }
@@ -447,10 +452,10 @@ a#dc:hover {
         letter-spacing: -5px;
     }
     h4 {
-        font-size: 20px;
+        font-size: 18px;
     }
     h5 {
-        font-size: 25px;
+        font-size: 35px;
     }
     h6 {
         font-size: 12px;
