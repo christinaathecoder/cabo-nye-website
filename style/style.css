@@ -74,7 +74,7 @@ nav ul li a, nav ul li a:visited {
     text-transform: uppercase;
 }
 nav ul li a:hover, nav ul li a:visited:hover {
-    font-style: italic;
+        text-decoration: none;
 }
 nav ul li a:not(:only-child):after, nav ul li a:visited:not(:only-child):after {
     padding-left: 4px;
@@ -309,16 +309,18 @@ a {
 }
 
 .floating-nav a {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
-    font: 1.5em 'tan';
-    padding: 10px 20px;
+    font: 1.25em 'myth';
+    text-transform: lowercase;
+    padding: 10px 10px;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .floating-nav a:hover, .floating-nav a.active {
     color: #ffc4d6;
     font-style:italic;
+    text-decoration: none;
     border-radius: 5px;
 }
 a:hover {
