@@ -183,7 +183,7 @@ h5 {
 }
 h6 {
     font: 100 1em 'Roboto';
-    text-transform: lowercase;
+    text-transform: none;
     font-style:italic;
 }
 .bg {
