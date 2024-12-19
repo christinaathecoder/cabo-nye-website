@@ -207,17 +207,8 @@ h6 {
 .bg#flights {
     background-image: url('../images/palm-tree-4.png');
 }
-.bg#construction {
-    background-image: url('../images/construction.png');
-}
-.bg#miami-vice {
-    background-image: url('../images/miami-vice.png');
-}
-.bg#diamonds {
-    background-image: url('../images/diamonds.png');
-}
-.bg#barbie {
-    background-image: url('../images/barbie.png');
+.bg#crew {
+    background-image: url('../images/palm-tree-5.png');
 }
 /* .border-container {
     background-color:rgba(255, 255, 255, 0.15);
