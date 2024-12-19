@@ -347,16 +347,16 @@ img#icons {
     height: 50px;
     padding: 0 0 0 0;
 }
+img#crew {
+    border-radius: 50%;
+}
 figure {
+    justify-content: center;
     display:inline-block;
 }
 figcaption#title {
-    font: 4em 'tan';
-    letter-spacing: -.1em;
-    text-transform: uppercase;
-}
-figcaption#sub {
-    font: 1.5em 'glitten';
+    font: 2em 'glitten';
+    letter-spacing: -.05em;
     text-transform: uppercase;
 }
 footer {
@@ -405,6 +405,9 @@ a#dc:hover {
     }
     img#icons {
         width: 50px !important;
+    }
+    img#crew {
+        width: 50% !important;
     }
     div {
         font-size: 12px;
